@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "577999032781",
+    "project_id": "kianart-def",
+    "storage_bucket": "kianart-def.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577999032781:android:c587ab95e1c0579933b484",
+        "android_client_info": {
+          "package_name": "com.example.esqueleto_kianart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577999032781-hjsvja8h0dotmu9qc4ltbkl9ff5lmqck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuc7qrGKTxBwaKJCH9d3_zA155Jgz4xtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577999032781-hjsvja8h0dotmu9qc4ltbkl9ff5lmqck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

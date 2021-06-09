@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerImagenActivity"
+    android:background="@drawable/degradado_fondo">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="goToMenuActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_logo_kianart"
+        android:contentDescription="@string/kianart"/>
+
+    <ImageView
+        android:id="@+id/imgVer"
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332"
+        app:srcCompat="@drawable/imagen1"
+        android:contentDescription="@string/kianart"/>
+
+    <TextView
+        android:id="@+id/txtMeGustaVerImagenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="6"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgVer"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnDarMeGusta"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/me_gusta"
+        android:background="@drawable/boton_redondeado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgVer"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <Button
+        android:id="@+id/btnNoMeGusta"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/no_me_gusta"
+        android:background="@drawable/boton_redondeado"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDarMeGusta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnDarMeGusta"
+        app:layout_constraintTop_toTopOf="@+id/btnDarMeGusta"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

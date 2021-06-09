@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KianART</string>
+    <string name="kianart">KianART</string>
+    <string name="subir_imagen">Subir</string>
+    <string name="mi_colección">Mi Colección</string>
+    <string name="explorar">Explorar</string>
+    <string name="home_button">Home</string>
+    <string name="mis_imagenes">Mis Imágenes</string>
+    <string name="me_gusta">Me Gusta</string>
+    <string name="no_me_gusta">No Me Gusta</string>
+    <string name="confirm">"Confirmar"</string>
+    <string name="confirm_message_eliminar_imagen">¿Quieres elminar esta Imagen?</string>
+    <string name="confirm_action">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+</resources>
